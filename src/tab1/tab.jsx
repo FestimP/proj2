@@ -8,14 +8,14 @@ function Tabs(){
     return(
         <div className="Tabs">
             <div className="TabsList">
-                <div className={"tabHead ${index==0?'active':null}"} onClick={()=>{setIndex(0)}}>Domains</div>
-                <div className={"tabHead ${index==1?'active':null}"} onClick={()=>{setIndex(1)}}>Web Hosting</div>
-                <div className={"tabHead ${index==2?'active':null}"} onClick={()=>{setIndex(2)}}>Dedicated Servers</div>
-                <div className={"tabHead ${index==3?'active':null}"} onClick={()=>{setIndex(3)}}>Virtual Cloud Servers</div>
-                <div className={"tabHead ${index==4?'active':null}"} onClick={()=>{setIndex(4)}}>WordPress Hosting</div>
-                <div className={"tabHead ${index==5?'active':null}"} onClick={()=>{setIndex(5)}}>Email Hosting</div>
-                <div className={"tabHead ${index==6?'active':null}"}onClick={()=>{setIndex(6)}}>VPS Hosting Servers</div>
-                <div className={"tabHead ${index==7?'active':null}"}onClick={()=>{setIndex(7)}}>Free Hosting</div>
+                <div className={"tabHead "} onClick={()=>{setIndex(0)}}>Domains</div>
+                <div className={"tabHead "} onClick={()=>{setIndex(1)}}>Web Hosting</div>
+                <div className={"tabHead "} onClick={()=>{setIndex(2)}}>Dedicated Servers</div>
+                <div className={"tabHead "} onClick={()=>{setIndex(3)}}>Virtual Cloud Servers</div>
+                <div className={"tabHead "} onClick={()=>{setIndex(4)}}>WordPress Hosting</div>
+                <div className={"tabHead "} onClick={()=>{setIndex(5)}}>Email Hosting</div>
+                <div className={"tabHead "}onClick={()=>{setIndex(6)}}>VPS Hosting Servers</div>
+                <div className={"tabHead "}onClick={()=>{setIndex(7)}}>Free Hosting</div>
             </div>
             <div className="tabConstant" hidden={index!==0}>
             <div className="tabConstant d" >
@@ -120,3 +120,12 @@ function Tabs(){
     )
 }
 export default Tabs;
+
+/*${index==0?'active':null}
+${index==1?'active':null}
+${index==2?'active':null}
+${index==3?'active':null}
+${index==4?'active':null}
+${index==5?'active':null}
+${index==6?'active':null}
+${index==7?'active':null}*/
