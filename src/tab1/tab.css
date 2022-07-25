@@ -16,6 +16,8 @@
     width:98%;
     padding-left: 10px;
 padding-right: 75px;
+flex-wrap: wrap;
+font-size: 22px;
    
 }
 .tabHead{
@@ -75,45 +77,83 @@ margin-left: 59px;
     padding: 25px;
 }
 
+@media only screen and (max-width: 2074px){
+    .TabsList{
+       font-size: 18px;
+       gap:20px;
+     
+    }
+  }
+  @media only screen and (max-width: 1556px){
+    .TabsList{
+      
+       gap:10px;
+     
+    }
+  }
+  @media only screen and (max-width: 1480px){
+    .TabsList{
+      
+       padding: 0;
+
+     
+    }
+  }
+
 @media only screen and (max-width: 1200px) {
-    /* .tabConstant.c,.tabConstant.d {
-        flex-direction: row;
-    } */
+
     .TabsList{
         margin-top: 30px;
        gap:50px;
-       flex-direction: column;
-       position: absolute;
-       left: 0px;
-       width: 19%;
-       text-align: left;
-       align-items: start;
        padding: 0px;
-       margin-top:68px;
+     
     }
-    .tabConstant {
-        margin-left:120px;
-        margin-right:0px; 
-
-    }
+  
     .tabConstant div  {
- width:40%;
+ width:30%;
     }
     .tabHead {
-        padding-top: 15px;
-padding-bottom: 15px;
-margin-left: 19px;
+  width: 20%;
     }
+  
+  .tabHead:hover {
+    border-left: 3px solid blue;
+    border-bottom: none;
+  }
+  .active {
+    color: black;
+    border-left: 3px solid blue;
+    border-bottom: none;
+  }
+}
+  @media only screen and (max-width: 806px){
+    .tabHead {
+        width: 15%;
+      }
+      .tabConstant {
+        margin-left: 0px;
+      }
+      .tabConstant div {
+        width: 40%;
+      }
+
   }
   @media only screen and (max-width: 700px){
     .tabConstant div {
-        width: 80%;
+        width: 45%;
+    
+    }
+    .tabConstant {
+        margin-left: 0px;
+    }
+    .tabHead {
+        width:35%;
     }
   }
   @media only screen and (max-width: 460px) {
 
-    .tabConstant {
-        margin-left:10px;
+    .tabConstant,.tabConstant.c,.tabConstant.d {
+        margin-left:0px;
         margin-right:0px; 
 
     }
@@ -122,14 +162,15 @@ margin-left: 19px;
        border-left: 3px solid blue;
        border-bottom: none;
     }
-    .TabsList {
-        font-size: 12px;
-    }
+ 
     .tabHead:hover{
         border-bottom: none;
         border-left: 3px solid blue;
     }
       .tabConstant div {
         width: 60%;
+    }
+    .tabHead {
+        width:46%;
     }
   }
