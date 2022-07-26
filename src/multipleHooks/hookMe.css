@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Pro {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    border: none;
+    color: black;
+    text-align: start;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom:2px solid #8080801c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+  }
+
+
+.btn-gray {
+    
+    padding: 0px 13px;
+    display: flex;
+    align-items: center;
+    background: none;
+    
+  }
+.btn-gray p {
+   margin: 0;
+    padding-left: 2%;
+    background: none;
+}
+.icon-arrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 18px;
+    background-color: transparent;
+}
+.icon-arrow1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 18px;
+    background-color: transparent;
+    rotate: 270deg;
+}
+.icon-arrow2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    rotate: 180deg;
+    margin-right: 18px;
+    background-color: transparent;
+}
+.user-icon {
+    width: 32px;
+    height: 32px;
+    color: blue;
+}
+
+.will {
+    margin-left: 18px;
+    background: none;
+}
+.will .title {
+    margin: 0;
+    background: none;
+}
+.none{
+    display: none;
+    background: none;
+}
+.sub-card {
+    width: 70%;
+    background: none;
+}
+.component-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom:2px solid #8080801c;
+    background: none;
+}
+.btn-gray-2 {
+    
+    padding-left: 13px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom:2px solid #8080801c;
+    height: 40px;
+    width: 100%;
+    background: none;
+  }
+  .btn-gray-2 p {
+    display: flex;
+flex-flow: row;
+align-items: center;
+background: none;
+  }
+.dub-card {
+    height: 84px;
+background-color: white;
+font-size: 12px;
+padding: 12px;
+background: none;
+}
+
