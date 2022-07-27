@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 90%;
     border: none;
     color: black;
     text-align: start;
@@ -19,7 +19,21 @@
     align-items: center;
     height: 65px;
   }
-
+  .sub-card {
+    width: 90%;
+    background: none;
+}
+.component-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border-bottom:2px solid #8080801c;
+    background: none;
+}
 
 .btn-gray {
     
@@ -33,6 +47,10 @@
    margin: 0;
     padding-left: 2%;
     background: none;
+    width: 90%;
+}
+.span {
+    color: gray;
 }
 .icon-arrow {
     display: flex;
@@ -73,35 +91,20 @@
     display: none;
     background: none;
 }
-.sub-card {
-    width: 70%;
-    background: none;
-}
-.component-card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    border-radius: 10px;
-    border-bottom:2px solid #8080801c;
-    background: none;
-}
+
+
 .btn-gray-2 {
     
-    padding-left: 13px;
+    padding-left: 20px;
     display: flex;
     align-items: center;
     flex-direction: row;
     align-content: space-between;
     justify-content: space-between;
     background-color: white;
-    border-radius: 10px;
     border-bottom:2px solid #8080801c;
     height: 40px;
-    width: 100%;
+    width: 98%;
     background: none;
   }
   .btn-gray-2 p {
@@ -111,10 +114,38 @@ align-items: center;
 background: none;
   }
 .dub-card {
-    height: 84px;
+    height: 60px;
 background-color: white;
-font-size: 12px;
+font-size: 16px;
 padding: 12px;
 background: none;
+font-weight: 600;
+color: gray;
 }
 
+@media screen and (max-width: 1000px) {
+    .dub-card {
+        height: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .dub-card {
+        height: 100%;
+        font-size: 1rem;
+        font-weight: 600;
+        color: gray;
+        background-color: white
+    }
+    .icon-arrow1,.icon-arrow2{
+       margin-right: 2.2rem; 
+    }
+
+  }
+  @media screen and (max-width: 480px) {
+  .btn-gray,.btn-gray-2 p {
+width: 90%;
+  }
+  .icon-arrow1,.icon-arrow2{
+    margin-right: 2.8rem; 
+ }
+  }
